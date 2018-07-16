@@ -3,3 +3,6 @@ Demo project for Rest Repositories in Spring Boot
 
 # Rest Repositories
 Access repository using REST calls with ``@RepositoryRestResource`` annotation
+
+# PostmanApiCalls
+Inside this folder you can find the api calls to use with Postman. Import them to Postman and you are good to go.
