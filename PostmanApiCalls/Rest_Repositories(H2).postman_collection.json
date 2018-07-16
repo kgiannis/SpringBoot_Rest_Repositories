@@ -1,0 +1,53 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Rest_Repositories(H2)",
+		"_postman_id": "117d9f9e-c593-a4ff-c714-6120595fd7ed",
+		"description": "Expose REST repositories. No need to have a controller",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Person_Find",
+			"request": {
+				"url": "http://localhost:8080/person/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Person_Create",
+			"request": {
+				"url": "http://localhost:8080/person/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Ioannis\",\n\t\"surname\": \"karavasilis\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Person_Find_ById",
+			"request": {
+				"url": "http://localhost:8080/person/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
